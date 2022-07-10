@@ -1,11 +1,13 @@
+import { Box, Button } from "@mui/material";
 import React from "react";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <Box className={"App"}>
       Hello World!
-    </div>
+      <Button variant="contained">Click</Button>
+    </Box>
   );
 }
 
